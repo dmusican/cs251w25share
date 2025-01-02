@@ -1,1 +1,1 @@
-# cs251w25share
+Shared code and notes for CS 251.

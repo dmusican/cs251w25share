@@ -1,6 +1,0 @@
-#+title: Tryit
-
-#+begin_src scheme
-(1 2)
-#+end_src
-

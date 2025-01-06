@@ -1,8 +1,7 @@
 #+title: Tryit
 
 #+begin_src scheme :results both
-(+ 1 2)
+(1 2)
 #+end_src
 
 #+RESULTS:
-: 3

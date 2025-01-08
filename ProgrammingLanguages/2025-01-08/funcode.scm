@@ -19,4 +19,13 @@
     (if (null? lst)
 	0
 	(+ 1 (list-length (cdr lst))))))
-    
+
+;;; Test to see of a list is all numbers
+(define list-of-numbers?
+  (lambda (lst)
+    (if (null? lst)
+	#t
+	(and (number? (car lst))
+	     (list-of-numbers? (cdr lst))
+  
+

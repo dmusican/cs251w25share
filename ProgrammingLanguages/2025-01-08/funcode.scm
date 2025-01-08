@@ -27,5 +27,6 @@
 	#t
 	(and (number? (car lst))
 	     (list-of-numbers? (cdr lst))))))
-  
+
+;; Prefect Thurs/Sun 8pm
 

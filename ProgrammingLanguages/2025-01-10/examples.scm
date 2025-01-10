@@ -5,5 +5,5 @@
 	#f  ; empty list: no item, so just false
 	(if (equal? n 0)
 	    (car lst)
-	    (nth lst (- n 1))))))
+	    (nth (cdr lst) (- n 1))))))
 	

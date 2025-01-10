@@ -9,8 +9,8 @@
 	
 (define nth-redux
   (lambda (lst n)
-    (cond ((null? lst) #f)
-	  ((equal? n 0) (car lst))
-	  (else (nth-redux (cdr lst) (- n 1))))))
+    (cond [(null? lst) #f]
+	  [(equal? n 0) (car lst)]
+	  [else (nth-redux (cdr lst) (- n 1))])))
 
 ;; can interchange [] (), work same so long as match

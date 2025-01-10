@@ -53,7 +53,15 @@
 	  ((equal? input old) new)
 	  (else input))))
 
-
+;; (cons-each 1 '( (a) (b) () (q))) --->
+;;       ( (1 a) (1 b) (1) (1 q))
+(define cons-each
+  (lambda (atom lst)
+    (if (null? lst)
+	'()
+	(cons
+	 (cons atom (car lst))
+	 (cons-each atom (cdr lst))))))
 
 
 

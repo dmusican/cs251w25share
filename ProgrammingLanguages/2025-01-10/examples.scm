@@ -18,7 +18,15 @@
 ;; examples where constructing lists for the answer
 ;; (remove-first 'a '(a b c))  ---> (b c)
 ;; (remove-first 'b '(a b c b d)) -> (a c b d)
+;; but don't actually remove anything
+;; construct the answer and return it
 (define remove-first
+  (lambda (item lst)
+    (cond ((null? lst) '())
+	  ((equal? item (car lst)) (cdr lst))
+	  (else (cons (car lst)
+		      (remove-first item (cdr lst)))))))
+
 
 
 

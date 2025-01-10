@@ -12,3 +12,5 @@
     (cond ((null? lst) #f)
 	  ((equal? n 0) (car lst))
 	  (else (nth-redux (cdr lst) (- n 1))))))
+
+;; can interchange [] (), work same so long as match

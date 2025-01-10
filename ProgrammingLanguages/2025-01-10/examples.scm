@@ -35,6 +35,16 @@
 	  (else (cons (car lst)
 		      (remove item (cdr lst)))))))
 
+;; substitute one item for another
+;; (subst 'b 'a '(d b g b)) -> (d a g a)
+;; (subst 'b 'a '((b c) (b () d))) ->
+;;               ((a c) (a () d))
+;; don't care about level of nested lists
+
+
+
+
+
 
 
 

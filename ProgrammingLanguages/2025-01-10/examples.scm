@@ -39,13 +39,19 @@
 ;; (subst 'b 'a '(d b g b)) -> (d a g a)
 ;; (subst 'b 'a '((b c) (b () d))) ->
 ;;               ((a c) (a () d))
+;; (subst 'b 'a  'b)   ---> a
 ;; don't care about level of nested lists
 (define subst
   (lambda (old new input)
-    (cond ((null? input)  ______________)
-	  ((list? input) _______________)
-	  ((equal? input old)  ___________)
-	  (else _______________))))
+    (cond ((null? input) '())
+
+	  ((list? input)
+	   (cons 
+	    (subst old new (car input))
+	    (subst old new (cdr input))))
+
+	  ((equal? input old) new)
+	  (else input))))
 
 
 

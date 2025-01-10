@@ -16,7 +16,7 @@
 ;; can interchange [] (), work same so long as match
 
 ;; examples where constructing lists for the answer
-;; (remove-first 'a '(a b c))  ---> (a)
+;; (remove-first 'a '(a b c))  ---> (b c)
 ;; (remove-first 'b '(a b c b d)) -> (a c b d)
 (define remove-first
 

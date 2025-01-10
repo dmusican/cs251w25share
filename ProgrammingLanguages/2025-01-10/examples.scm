@@ -11,4 +11,4 @@
   (lambda (lst n)
     (cond ((null? lst) #f)
 	  ((equal? n 0) (car lst))
-	  (else (nth (cdr lst) (- n 1))))))
+	  (else (nth-redux (cdr lst) (- n 1))))))

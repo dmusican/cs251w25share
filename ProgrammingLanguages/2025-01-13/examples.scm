@@ -35,5 +35,4 @@
   (lambda (documents)
     (map length documents)))
 
-
 (total-length lists)

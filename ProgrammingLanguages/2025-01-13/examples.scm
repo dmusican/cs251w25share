@@ -22,3 +22,4 @@
 
 (use-modules ((rnrs)))
 (fold-left + 0 '(1 2 3))
+(fold-left / 24.0 '(2 3))

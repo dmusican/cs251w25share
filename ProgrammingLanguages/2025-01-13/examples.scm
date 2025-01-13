@@ -33,6 +33,6 @@
 
 (define total-length
   (lambda (documents)
-    (map length documents)))
+    (fold-left + 0 (map length documents))))
 
 (total-length lists)

@@ -23,3 +23,17 @@
 (use-modules ((rnrs)))
 (fold-left + 0 '(1 2 3))
 (fold-left / 24.0 '(2 3))
+
+
+;; Add up lengths of sublists
+(define lists '((the fox jumped)
+                (the cow mooed loudly)
+                (birds)
+                (happy cheetahs)))
+
+(define total-length
+  (lambda (documents)
+    (map length documents)))
+
+
+(total-length lists)

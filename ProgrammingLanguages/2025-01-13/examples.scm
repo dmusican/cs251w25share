@@ -47,3 +47,5 @@
 (define max-length
   (lambda (documents)
     (fold-left pairmax 0 (map length documents))))
+
+(max-length lists)

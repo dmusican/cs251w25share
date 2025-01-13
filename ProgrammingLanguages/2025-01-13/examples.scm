@@ -46,4 +46,4 @@
 ;; Find the length of the longest sublist
 (define max-length
   (lambda (documents)
-    (map length documents)
+    (fold-left pairmax 0 (map length documents))))

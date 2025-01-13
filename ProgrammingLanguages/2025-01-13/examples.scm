@@ -13,3 +13,5 @@
 ;; and apply that function to each item in the list
 ;; which is given
 (map addOne '(9 1 2 3 7))
+
+(map (mult 3) '(9 1 2 3 7))

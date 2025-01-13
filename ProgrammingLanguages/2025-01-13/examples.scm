@@ -55,8 +55,9 @@
 
 (define count-word
   (lambda (target words)
-    (map (lambda (word)
-           (if (equal? word target) 1 0))
-         words)))
+    (fold-left + 0
+               (map (lambda (word)
+                      (if (equal? word target) 1 0))
+                    words)))
 
 (count-word 'quick text)

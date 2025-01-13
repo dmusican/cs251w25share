@@ -20,5 +20,5 @@
 ;;; together, is called fold-left and fold-right in
 ;;; Scheme
 
-(use-modules ((rnrs) #:select fold-left))
+(use-modules ((rnrs)))
 (fold-left + 0 '(1 2 3))

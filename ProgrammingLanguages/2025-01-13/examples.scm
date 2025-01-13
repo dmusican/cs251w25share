@@ -19,3 +19,5 @@
 ;;; "reduce", which is used for combining results
 ;;; together, is called fold-left and fold-right in
 ;;; Scheme
+
+(fold-left + 0 '(1 2 3))

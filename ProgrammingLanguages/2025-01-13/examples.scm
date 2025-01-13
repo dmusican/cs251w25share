@@ -59,6 +59,6 @@
                0
                (map (lambda (word)
                       (if (equal? word target) 1 0))
-                    words)))
+                    words))))
 
 (count-word 'quick text)

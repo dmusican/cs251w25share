@@ -36,3 +36,14 @@
     (fold-left + 0 (map length documents))))
 
 (total-length lists)
+
+(define pairmax
+  (lambda (a b)
+    (if (> a b)
+        a
+        b)))
+
+;; Find the length of the longest sublist
+(define max-length
+  (lambda (documents)
+    (map length documents)

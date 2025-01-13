@@ -49,3 +49,14 @@
     (fold-left pairmax 0 (map length documents))))
 
 (max-length lists)
+
+;;; Count the number of times a word appears on a page
+(define text '(the quick brown fox ate a squirrel quick quick))
+
+(define count-word
+  (lambda (target words)
+    (map (lambda (word)
+           (if (equal? word target) 1 0))
+         words)))
+
+(count-word 'quick text)

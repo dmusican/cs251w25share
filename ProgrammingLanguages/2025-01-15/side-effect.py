@@ -9,7 +9,7 @@ def remove_last_again(lst):
     count += 1   # yes, a side effect
     lst.pop()    # yes, a side effect
     print("working")  # yes, a side effect
-    done = True
+    done = True  # no
     return None
 
 

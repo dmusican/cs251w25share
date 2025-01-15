@@ -18,3 +18,12 @@ print(sorted(items))
 # sorting it by
 print(sorted(items,
              key=lambda animal: animal[1]))
+
+# Make a new list that adds one to every
+# item in a list you have
+items = [9, 2, 1, 3, 5]
+# CS 111 way
+new_items = items.copy()
+for i in range(len(new_items)):
+    new_items[i] = new_items[i] + 1
+print(new_items)

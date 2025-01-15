@@ -29,6 +29,6 @@ for i in range(len(new_items)):
 print(new_items)
 
 # Super cool functional way
-new_items = map(lambda thing: thing+1,
-                items)
+new_items = list(map(lambda thing: thing+1,
+                     items))
 print(new_items)

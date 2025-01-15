@@ -7,7 +7,7 @@ count = 0 # not in a function
 def remove_last_again(lst):
     global count
     count += 1   # yes, a side effect
-    lst.pop()
+    lst.pop()    # yes, a side effect
     print("working")
     done = True
     return None

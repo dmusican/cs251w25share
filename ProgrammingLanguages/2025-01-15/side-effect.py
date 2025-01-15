@@ -1,9 +1,9 @@
 def remove_last(lst):
     result = lst[:len(lst)-1]  #no side effect
     done = True   # no
-    return result
+    return result # no
 
-count = 0
+count = 0 # not in a function
 def remove_last_again(lst):
     global count
     count += 1

@@ -1,6 +1,6 @@
 def remove_last(lst):
-    result = lst[:len(lst)-1]
-    done = True
+    result = lst[:len(lst)-1]  #no side effect
+    done = True   # no
     return result
 
 count = 0

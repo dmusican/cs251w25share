@@ -6,7 +6,7 @@ def remove_last(lst):
 count = 0 # not in a function
 def remove_last_again(lst):
     global count
-    count += 1
+    count += 1   # yes, a side effect
     lst.pop()
     print("working")
     done = True

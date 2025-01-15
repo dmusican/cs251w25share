@@ -27,3 +27,8 @@ new_items = items.copy()
 for i in range(len(new_items)):
     new_items[i] = new_items[i] + 1
 print(new_items)
+
+# Super cool functional way
+new_items = map(lambda thing: thing+1,
+                items)
+print(new_items)

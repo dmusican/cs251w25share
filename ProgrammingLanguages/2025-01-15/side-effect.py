@@ -12,3 +12,6 @@ def remove_last_again(lst):
     done = True
     return None
 
+
+# Where are side effects when functions are
+# called?

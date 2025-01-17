@@ -23,4 +23,4 @@
 ;; y that was not visible to the env
 ;; that called (fun1 7)
 
-;; fun2?
+;; fun2? YES!

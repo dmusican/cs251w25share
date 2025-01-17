@@ -12,3 +12,6 @@
     (+ x y)))
 
 
+;; If I call
+;;(define a 7)
+;; does a side effect happen?

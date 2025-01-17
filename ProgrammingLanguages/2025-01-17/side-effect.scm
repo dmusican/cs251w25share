@@ -15,3 +15,7 @@
 ;; If I call
 ;;(define a 7)
 ;; does a side effect happen? YES!
+
+;; If I call fun1
+;; (fun1 5)
+;; does a side effect happen?

@@ -19,3 +19,6 @@
 ;; If I call fun1
 ;; (fun1 5)
 ;; does a side effect happen?
+;; NO, (define y 3) created a local variable
+;; y that was not visible to the env
+;; that called (fun1 7)

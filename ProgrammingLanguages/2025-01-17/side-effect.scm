@@ -22,3 +22,5 @@
 ;; NO, (define y 3) created a local variable
 ;; y that was not visible to the env
 ;; that called (fun1 7)
+
+;; fun2?

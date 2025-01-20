@@ -15,4 +15,5 @@ int main() {
   *y = 7;
   // ^^^ Follow the pointer in y to the memory
   // location, and put a 7 in it
+  printf("%i\n", *y);
 }

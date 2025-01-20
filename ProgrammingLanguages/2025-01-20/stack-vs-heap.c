@@ -26,6 +26,6 @@ int main() {
     printf("b = %g\n",b);
 
     // Added later by Dave
-    printf("%i\n", z);
+    printf("%p\n", z);
     free(z);
 }

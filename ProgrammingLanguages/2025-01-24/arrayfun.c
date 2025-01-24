@@ -3,5 +3,10 @@
 int main() {
   // Make an array
   int a[3];
-  printf("%lu\n", sizeof(int));
+  for (int i=0; i < 3; i++) {
+    a[i] = i;
+  }
+  for (int i=0; i < 3; i++) {
+    printf("a[%i] = %i\n", i, a[i]);
+  }
 }

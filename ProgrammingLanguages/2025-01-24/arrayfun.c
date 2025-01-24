@@ -15,7 +15,11 @@ int main() {
   // Copy the array
   int b[3];
   memcpy(b, a, sizeof(int)*3);
+
+  // Prove it is a copy
+  a[1] = 7;
   for (int i=0; i < 3; i++) {
+    printf("a[%i] = %i\n", i, a[i]);
     printf("b[%i] = %i\n", i, b[i]);
   }
 }

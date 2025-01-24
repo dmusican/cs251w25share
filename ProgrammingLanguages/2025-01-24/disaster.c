@@ -2,10 +2,15 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
+void doit() {
+  int *x = malloc(sizeof(int));
+  *x = 12;
+  // do lots of stuff
+  // return answer
+}
+
 int main() {
-  int *x;
   while (true) {
-    x = malloc(sizeof(int));
-    free(x);
+    doit();
   }
 }

@@ -37,11 +37,10 @@ int main() {
   // Does this copy the array or not?
   int *d = c;
 
-
-
-
-
-
+  // C does not clean up the heap when
+  // a function ends
+  // Free the memory that c refers to
+  // free(c);
 
   
 }

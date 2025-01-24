@@ -34,6 +34,9 @@ int main() {
     printf("c[%i] = %i\n", i, c[i]);
   }
 
+  // Does this copy the array or not?
+  int *d = c;
+
 
 
 

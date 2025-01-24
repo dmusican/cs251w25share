@@ -6,5 +6,6 @@ int main() {
   int *x;
   while (true) {
     x = malloc(sizeof(int));
+    free(x);
   }
 }

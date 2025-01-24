@@ -7,6 +7,7 @@ void doit() {
   int *x = malloc(sizeof(int));
   free(x);
   *x = 12;
+  printf("%i\n", *x);
   // do lots of stuff
   // return answer
 

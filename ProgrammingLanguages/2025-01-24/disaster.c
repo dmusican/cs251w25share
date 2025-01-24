@@ -5,9 +5,9 @@
 // We are looking at how to catch these bugs
 void doit() {
   int *x = malloc(sizeof(int));
+  free(x);
   *x = 12;
   // do lots of stuff
-  free(x);
   // return answer
 
 }

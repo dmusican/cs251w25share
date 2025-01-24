@@ -22,4 +22,23 @@ int main() {
     printf("a[%i] = %i\n", i, a[i]);
     printf("b[%i] = %i\n", i, b[i]);
   }
+
+  // Allocate an array in heap instead
+  // Variables representing arrays
+  // and pointers are interchangeable
+  int *c = malloc(sizeof(int)*3);
+  c[0] = 8; // same thing as *c = 8
+  c[1] = 9;
+  c[2] = 10;
+  for (int i=0; i < 3; i++) {
+    printf("c[%i] = %i\n", i, c[i]);
+  }
+
+
+
+
+
+
+
+  
 }

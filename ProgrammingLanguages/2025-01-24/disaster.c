@@ -6,7 +6,7 @@ void doit() {
   int *x = malloc(sizeof(int));
   *x = 12;
   // do lots of stuff
-  free(x);
+  // free(x);
   // return answer
 
 }

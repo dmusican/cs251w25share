@@ -13,7 +13,5 @@ void doit() {
 }
 
 int main() {
-  while (true) {
     doit();
-  }
 }

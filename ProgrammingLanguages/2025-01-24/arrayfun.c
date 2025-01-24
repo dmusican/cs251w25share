@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
   // Make an array
@@ -12,5 +13,6 @@ int main() {
 
   // Copy the array
   int b[3];
-  b = a;
+  memcpy(b, a, sizeof(int)*3);
+
 }

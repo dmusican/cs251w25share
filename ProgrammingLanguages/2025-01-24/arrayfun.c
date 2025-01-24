@@ -15,5 +15,7 @@ int main() {
   // Copy the array
   int b[3];
   memcpy(b, a, sizeof(int)*3);
-
+  for (int i=0; i < 3; i++) {
+    printf("b[%i] = %i\n", i, b[i]);
+  }
 }

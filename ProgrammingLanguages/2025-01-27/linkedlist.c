@@ -3,5 +3,5 @@
 #include "linkedlist.h"
 
 int main() {
-    thingydoo *list = NULL;
+    LinkedList *list = NULL;
 }

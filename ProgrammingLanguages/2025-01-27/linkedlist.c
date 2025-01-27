@@ -32,4 +32,5 @@ int main() {
     list = insertFrontLL(list, 1);
     list = insertFrontLL(list, 2);
     displayLL(list);
+    cleanupLL(list);
 }

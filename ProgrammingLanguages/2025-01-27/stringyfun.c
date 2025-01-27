@@ -19,7 +19,4 @@ int main() {
     strcpy(word2, "hello");
     word2[0] = 'b';
     printf("%s\n", word2);
-
-
-
 }

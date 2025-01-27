@@ -20,4 +20,8 @@ int main() {
     word2[0] = 'b';
     printf("%s\n", word2);
     free(word2);
+
+    // Play with "hello"
+    char *word3 = "hello";
+    word3[0] = 'y';
 }

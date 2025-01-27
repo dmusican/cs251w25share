@@ -11,6 +11,14 @@ LinkedList *insertFrontLL(LinkedList *list, int item) {
     return cell;
 }
 
+void displayLL(LinkedList *list) {
+    LinkedList *current = list;
+    while (current != NULL) {
+        printf("Value = %i\n", current->value);
+        current = current->next;
+    }
+}
+
 int main() {
     LinkedList *list = NULL;
     list = insertFrontLL(list, 1);

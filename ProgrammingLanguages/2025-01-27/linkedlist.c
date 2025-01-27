@@ -19,6 +19,14 @@ void displayLL(LinkedList *list) {
     }
 }
 
+void cleanupLL(LinkedList *list) {
+    LinkedList *current = list;
+    while (current != NULL) {
+        free(current);
+        current = current->next;
+    }
+}
+
 int main() {
     LinkedList *list = NULL;
     list = insertFrontLL(list, 1);

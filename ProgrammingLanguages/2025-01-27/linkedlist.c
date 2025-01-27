@@ -23,4 +23,5 @@ int main() {
     LinkedList *list = NULL;
     list = insertFrontLL(list, 1);
     list = insertFrontLL(list, 2);
+displayLL(list):
 }

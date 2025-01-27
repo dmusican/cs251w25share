@@ -17,6 +17,8 @@ int main() {
     char *word2 = malloc(sizeof(char) * 10);
     // Faster way to initialize
     strcpy(word2, "hello");
+    word2[0] = 'b';
+    printf("%s\n", word2);
 
 
 

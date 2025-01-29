@@ -22,5 +22,5 @@ int main() {
 
     y.d = 9;
     printf("The double was %g\n", y.d);
-    printf("The int now is %g\n", y.i);
+    printf("The int now is %i\n", y.i);
 }

@@ -8,4 +8,7 @@ int main() {
     value->i = 3;
     printf("value is %i\n", value->i);
 
+    value->car = value;
+    value->cdr = value;
+
 }

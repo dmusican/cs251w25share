@@ -14,5 +14,6 @@ int main() {
     // int x = 3;
     // double x = 9.7;
 
-    Thingydoo y.x = 3;
+    Thingydoo y;
+    y.x= 3;
 }

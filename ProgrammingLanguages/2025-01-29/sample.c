@@ -21,5 +21,5 @@ int main() {
     printf("The int was %i\n", y.i);
 
     y.d = 9;
-    printf("The int was %g\n", y.d);
+    printf("The double was %g\n", y.d);
 }

@@ -20,7 +20,7 @@ int main() {
 
     printf("The int was %i\n", y.i);
 
-    y.d = 9;
+    y.d = 9999999.99999999;
     printf("The double was %g\n", y.d);
     printf("The int now is %i\n", y.i);
 }

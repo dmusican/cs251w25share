@@ -4,16 +4,19 @@
 
 int main() {
 
-    SchemeVal *value = malloc(sizeof(SchemeVal));
-    value->type = INT_TYPE;
-    value->i = 3;
-    if (value->type == INT_TYPE) {
-        printf("value is %i\n", value->i);
-    } else if (value->type == DOUBLE_TYPE) {
-        printf("value is %g\n", value->d);
-    }
+    SchemeVal *ending = malloc(sizeof(SchemeVal));
+    // empty list
+    ending->type = EMPTY_TYPE;
 
-    value->car = value;
-    value->cdr = value;
+    // insert something in front
+    SchemeVal *first = malloc(sizeof(SchemeVal));
+    first->type = INT_TYPE;
+    first->i = 3;
 
+    SchemeVal *consCell = malloc(sizeof(SchemeVal));
+    consCell->type = CONS_TYPE;
+    consCell->car = first;
+    consCell->cdr = ending;
+
+  `
 }

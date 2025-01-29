@@ -4,8 +4,8 @@
 // for handling multiple types with the same variable
 
 union Thingydoo {
-    int x;
-    double x;
+    int i;
+    double d;
 };
 
 typedef    union Thingydoo     Thingydoo;

@@ -21,6 +21,6 @@ int main() {
     printf("The int was %i\n", y.i);
 
     y.d = 9999999.99999999;
-    printf("The double was %10.5f\n", y.d);
+    printf("The double was %10.20f\n", y.d);
     printf("The int now is %i\n", y.i);
 }

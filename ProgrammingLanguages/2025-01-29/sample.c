@@ -3,6 +3,7 @@
 // questionable strategy (but the right one)
 // for handling multiple types with the same variable
 
+// i and d share the same memory
 union Thingydoo {
     int i;
     double d;
@@ -18,4 +19,7 @@ int main() {
     y.i= 3;
 
     printf("The int was %i\n", y.i);
+
+    y.d = 9;
+    printf("The int was %g\n", y.d);
 }

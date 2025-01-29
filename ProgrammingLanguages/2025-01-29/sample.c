@@ -15,5 +15,7 @@ int main() {
     // double x = 9.7;
 
     Thingydoo y;
-    y.x= 3;
+    y.i= 3;
+
+    printf("The int was %i\n", y.i);
 }

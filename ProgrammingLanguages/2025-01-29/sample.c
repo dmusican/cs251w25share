@@ -8,9 +8,11 @@ union Thingydoo {
     double x;
 };
 
-typedef union Thingydoo     Thingydoo;
+typedef    union Thingydoo     Thingydoo;
 
 int main() {
     // int x = 3;
     // double x = 9.7;
+
+    Thingdoo y.x = 3;
 }

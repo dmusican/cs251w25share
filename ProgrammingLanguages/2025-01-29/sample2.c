@@ -1,5 +1,5 @@
 #include "schemeval.h"
-#inclue <stdlib.h>
+#include <stdlib.h>
 
 int main() {
 

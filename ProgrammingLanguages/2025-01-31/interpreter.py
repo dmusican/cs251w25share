@@ -7,4 +7,3 @@ for line in inpfile:
         print(command)
 
 inpfile.close()
-outfile.close()

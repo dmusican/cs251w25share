@@ -9,7 +9,5 @@ for line in inpfile:
     outfile.write('   echo "' + command + '"\n')
     outfile.write('done\n')
 
-
-
 inpfile.close()
 outfile.close()

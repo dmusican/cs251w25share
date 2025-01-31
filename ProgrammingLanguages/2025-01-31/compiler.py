@@ -3,7 +3,7 @@ outfile = open('myprog.bash', 'w')
 
 for line in inpfile:
     [command, number] = line.split()
-    print(command, number)
+    print(command, "|||", number)
 
 inpfile.close()
 outfile.close()

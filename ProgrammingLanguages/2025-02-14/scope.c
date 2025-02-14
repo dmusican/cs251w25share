@@ -4,7 +4,7 @@
 void fun1();
 void fun2();
 
-int x = 3;
+int x = 1;
 
 void fun1() {
     int x = 4;

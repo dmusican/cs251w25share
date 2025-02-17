@@ -8,3 +8,4 @@ def fun2():
     print(x)
 
 fun1()
+print(x)  # 1 or 2?

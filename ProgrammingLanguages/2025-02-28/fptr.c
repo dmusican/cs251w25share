@@ -8,7 +8,7 @@ int multiply(int x, int y) {
   return x * y;
 }
 
-int doit(f, x, y) {
+int doit(f, int x, int y) {
   return f(x,y);
 }
 

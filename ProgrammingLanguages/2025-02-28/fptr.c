@@ -1,4 +1,5 @@
 // Demonstrate passing functions around via pointers
+#include <stdio.h>
 
 int add(int x, int y) {
   return x + y;

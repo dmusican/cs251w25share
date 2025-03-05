@@ -1,7 +1,7 @@
 (define fact
   (lambda (n)
     (if (equals? n 1)
-        1
+        (/ 1 0)
         (* n (fact (- n 1))))))
 
 ;;; Call it like (fact 5 1). Second parameter
@@ -11,5 +11,5 @@
 (define fact-tail
   (lambda (n partial)
     (if (equal? n 1)
-        partial
+        (/ 1 0)
         (fact-tail (- n 1) (* n partial)))))

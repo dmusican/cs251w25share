@@ -8,3 +8,9 @@
   (lambda (x)
     (+ x 1)))
 (add-one 5)
+;; But what if I only needed add-one ONCE, right here
+;; and so I don't want to clutter my space with
+;; variables I don't need
+
+;; How about
+((lambda (x) (+ x 1)) 5)

@@ -14,3 +14,9 @@
 
 ;; How about
 ((lambda (x) (+ x 1)) 5)
+;; but hard to read
+
+;; let to the rescue
+(let ((add-one (lambda (x)
+                 (+ x 1))))
+  (add-one 5)

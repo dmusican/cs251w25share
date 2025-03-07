@@ -26,7 +26,17 @@
 
 ;; But what happens if we try this on a recursive function?
 
-(let ((fact (lambda (n)
+;; (let ((fact (lambda (n)
+;;               (if (equal? n 1)
+;;                   1
+;;                   (* n (fact (- n 1)))))))
+;;   (fact 5))
+
+;; fails, but watch me now
+
+
+
+(letrec ((fact (lambda (n)
               (if (equal? n 1)
                   1
                   (* n (fact (- n 1)))))))

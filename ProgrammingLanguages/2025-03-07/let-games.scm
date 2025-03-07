@@ -20,3 +20,6 @@
 (let ((add-one (lambda (x)
                  (+ x 1))))
   (add-one 5))
+;; This gets me readability, and a "name" for the
+;; function, and still keps it restrained to the
+;; one time I'm using it

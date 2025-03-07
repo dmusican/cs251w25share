@@ -23,3 +23,11 @@
 ;; This gets me readability, and a "name" for the
 ;; function, and still keps it restrained to the
 ;; one time I'm using it
+
+;; But what happens if we try this on a recursive function?
+
+(let ((fact (lambda (n)
+              (if (equal? n 1)
+                  1
+                  (* n (fact (- n 1)))))))
+  (fact 5))
